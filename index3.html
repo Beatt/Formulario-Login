@@ -1,0 +1,107 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="form.css" />
+		<script type="text/javascript" src="jQuery.js"></script>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>
+					Cargo
+				</legend>
+				<label>Zona:
+					<input type="checkbox" />
+					<input type="text">
+				</label>
+
+				<label>CND:
+					<input type="checkbox" />
+					<input type="text">
+				</label>
+
+				<label>DNC:
+					<input type="checkbox" />
+					<input type="text">
+				</label>
+
+			</fieldset>
+			<fieldset>
+				<legend>
+					Persona
+				</legend>
+				<label>Nombre:</label>
+				<input type="text" />
+				<label>Apellido Paterno:</label>
+				<input type="text" />
+				<label>Apellido Materno:</label>
+				<input type="text" />
+			</fieldset>
+			<fieldset>
+				<legend>
+					Titular
+				</legend>
+				<label>Titulo</label>
+				<select>
+					<option>Default</option>
+				</select>
+			</fieldset>
+			<fieldset class="contacto">
+				<legend>
+					Contacto
+				</legend>
+				<label>Telefono 1:</label>
+				<input type="text" placeholder="Lada" class="lada"/>
+				-
+				<input type="text" placeholder="número" class="num"/>
+				-
+				<input type="text" placeholder="ext" class="ext" />
+
+				<label>Celular:</label>
+				<input type="text" class="lada"/>
+				-
+				<input type="text" />
+				-
+				<input type="text" class="ext" />
+
+				<label>Email 1:</label>
+				<input type="text" />
+
+				<label>Fax 1:</label>
+				<input type="text" />
+
+			</fieldset>
+
+			<fieldset class="opcional">
+				<label>Telefono 2: <img src="imagen.png" onclick="$('.opcional').show();"/> </label>
+				<input type="text" class="lada"/>
+				-
+				<input type="text" class="num"/>
+				-
+				<input type="text" class="ext" />
+
+				<label>Email 2:</label>
+				<input type="text" />
+
+				<label>Fax 2:</label>
+				<input type="text" />
+
+				<br />
+
+				<label>Telefono 3:</label>
+				<input type="text" class="lada"/>
+				-
+				<input type="text" class="num"/>
+				-
+				<input type="text" class="ext" />
+
+				<label>Email 3:</label>
+				<input type="text" />
+
+				<label>Fax 3:</label>
+				<input type="text" />
+			</fieldset>
+		</form>
+	</body>
+</html>
